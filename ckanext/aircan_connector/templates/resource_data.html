@@ -29,7 +29,7 @@
     </colgroup>
     <tr>
       <th>{{ _('Status') }}</th>
-      <td>{{ status['status'] }}</td>
+      <td>{{ sGtatus['status'] }}</td>
     </tr>
     <tr>
       <th>{{ _('Last updated') }}</th>
@@ -103,7 +103,5 @@
       <p class="muted">{{ _('End of log') }}</p>
     </li>
   </ul>
-  {% resource 'aircan_connector/aircan' %}
-
   {% endif %}
 {% endblock %}
