@@ -11,8 +11,8 @@ import uuid
 import datetime
 
 from ckan.common import request
-from gcp_handler import GCPHandler
-from dag_status_report import DagStatusReport
+from ckanext.aircan_connector.logic.gcp_handler import GCPHandler
+from ckanext.aircan_connector.logic.dag_status_report import DagStatusReport
 import ckan.logic as logic
 import ckan.plugins as p
 import ckan.lib.helpers as h
